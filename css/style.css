@@ -42,7 +42,9 @@ nav div{
 nav div:hover{
     background-color: rgb(128, 207, 227);
 }
-
+h1, legend{
+    color: var(--primary-color);
+}
 /*Main*/
 
 main{
@@ -54,20 +56,34 @@ main{
 }
 
 .box{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+    padding-top: 35vh;
 }
 
 .box div{
-    margin-top: 300px;
     border: 5px solid var(--primary-color);
-    margin-left: 250px;
-    margin-right: 250px;
     padding: 2rem;
     border-radius: 10px;
+    max-width: 35vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    
 }
 
+#translucido{
+    content: " ";
+    background-color: rgb(84, 158, 220, 0.6);
+}
+
+button{
+    background-color: var(--primary-color);
+    padding: 0.3rem;
+    border-radius: 10px;
+    margin-top: 3px;
+    width: 150px;
+}
 
 
 /*Galeria*/
@@ -97,6 +113,11 @@ img{
 .formulari{
     display: flex;
     flex-direction: column;
+    gap: 0.3rem;
+}
+
+.formulari .box{
+    z-index: 2;
 }
 
 
