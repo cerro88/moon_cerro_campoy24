@@ -68,6 +68,8 @@ main{
     border-radius: 10px;
 }
 
+
+
 /*Galeria*/
 
 img{
@@ -87,6 +89,14 @@ img{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 2rem;
+}
+
+
+/*Form*/
+
+.formulari{
+    display: flex;
+    flex-direction: column;
 }
 
 
