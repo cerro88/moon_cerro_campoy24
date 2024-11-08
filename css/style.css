@@ -68,6 +68,49 @@ main{
     border-radius: 10px;
 }
 
+/*Galeria*/
+
+img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+
+}
+
+.galeria{
+    display: flex;
+    justify-content: center;
+}
+
+.box_fotos{
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 footer{
     height: 25%;
     background-color: var(--primary-color);
